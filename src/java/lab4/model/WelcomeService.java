@@ -22,7 +22,7 @@ public class WelcomeService {
         String message;
         if(time >=0 && time <12){
             message = "morning";
-        }else if(time >=12 && time < 5){
+        }else if(time >=12 && time < 17){
             message = "afternoon";
         }else{
             message = "evening";

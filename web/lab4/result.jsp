@@ -19,7 +19,7 @@
         if(obj == null){
             message = "sorry, null name";
         }else message = String.valueOf(obj);
-        out.print("<h3>" + message + "</h3>");
         %>
+        <h3><%= message%></h3>
     </body>
 </html>
